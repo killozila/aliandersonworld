@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!--=============== Metas Compatibilidade ===============-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--=============== Nome do site ===============-->
+
+    <title>Alianderson World</title>
+   
+    <!--=============== Descrição do site ===============-->
+    <meta name="description" content="Seja bem vindo ao meu perfil pessoal Alianderson World, aqui você encontra um pouco do meu mundo.">
+
+    <!--=============== Favicon ===============-->
+    <link rel="icon" type="image/png" href="./image/world.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="./image/world.png" sizes="64x64">
+    <link rel="apple-touch-icon" href="./image/world.png">
+    <link rel="shortcut icon" href="./image/world.png">
+    <meta property="og:logo" content="./image/world.png" size="180x180">
+
+    <!--=============== Og Site ===============-->
+    <meta property="og:url" content="">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Alianderson World">
+    <meta property="og:description" content="Seja bem vindo ao meu perfil pessoal Alianderson World, aqui você encontra um pouco do meu mundo.">
+    <meta property="og:image" content="./image/world.png">
+    <meta property="og:image:width" content="1080">
+    <meta property="og:image:height" content="1080">
+
+    <!--=============== Twitter ===============-->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@alianderson_world">
+    <meta name="twitter:title" content="Alianderson World">
+    <meta name="twitter:description" content="Seja bem vindo ao meu perfil pessoal Alianderson World, aqui você encontra um pouco do meu mundo.">
+    <meta name="twitter:image" content="/assets/images/frontpage/share.png">
+    <meta name="robots" content="index,follow">
+
+    <!--=============== Css ===============-->
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!--=============== Css ===============-->
+</head>
+<body>
+    <!-- Cursor -->
+    <div id="cursor" class="cursor"></div>
+    <!-- Cursor -->
+
+    <div class="section1" id="section1">
+        <!-- 1 Section Content -->
+        <div class="one container">
+
+            <!-- Header -->
+              
+            <nav>
+                <div class="navbar">
+                  <div class="containerfirst nav-container">
+                    <input class="checkbox" type="checkbox" name="" id="menu-toggle" />
+                    <div class="hamburger-lines" for="menu-toggle">
+                      <span class="line line1"></span>
+                      <span class="line line2"></span>
+                      <span class="line line3"></span>
+                    </div>  
+                    <div class="logo">
+                      <h1>Alianderson World</h1>
+                    </div>
+                    <div class="menu-items">
+                      <li><a onclick="('#')">Página inicial</a></li>
+                      <li><a onclick="redirectTo('https://homefly.vercel.app/')">Minha bio</a></li>
+                      <li><a onclick="scrollToSection('section4')">Projetos</a></li>
+                      <li><a onclick="redirectTo('./certificate/certificate/certificate.html')">Certificados</a></li>
+                      <li><a onclick="redirectTo('https://www.linkedin.com/in/alianderson-da-luz-5571542b8/')">Contato</a></li>
+                    </div>
+                  </div>
+                </div>
+              </nav>
+
+              
+            <!-- Header -->
+            
+            <!-- Social Float -->
+            <div class="social">
+                <ul class="social-nav">
+                    
+                    <li class="twitter" onclick="redirectTo('https://twitter.com/aliandersonwrld')">
+                        <a><i class="fa-brands fa-square-x-twitter"></i></a>
+                    </li>
+                        
+                    <li class="email" onclick="redirectTo('mailto:aliandersonnevesdaluz@gmail.com')">
+                        <a><i class="fa-solid fa-envelope"></i></a>
+                    </li>
+            
+                    <li class="github" onclick="redirectTo('https://github.com/alianderson-world')">
+                        <a><i class="fa-brands fa-square-github"></i></a>
+                    </li>
+            
+                    <li class="linked" onclick="redirectTo('https://www.linkedin.com/in/alianderson-da-luz-5571542b8/')">
+                        <a><i class="fa-brands fa-linkedin"></i></a>
+                    </li>
+            
+                    <li class="discord" onclick="redirectTo('https://discord.com/users/ALIANDERSONNEVES#5598')">
+                        <a><i style="font-size: 20px;" class="fa-brands fa-discord fa-2xs"></i></a>
+                    </li>
+            
+                </ul>
+            </div>
+            
+            <!-- Social Float -->
+        
+            <div class="text-content">
+
+                <!-- Banner Text -->
+                <div class="head">
+                    
+                    <h1 class="mobilelogo" style="font-family: 'xspace', sans-serif;">
+                        <span>«</span> POR WORLD A.I <span>»</span> 
+                    </h1>
+                    
+                    <h1>
+                        Vida inteligente para <span class="foco"> <span class="circle">°</span> <span class="focoDisplay">todos</span></span>
+                    </h1>
+                    
+                    <p>Seja bem vindo! Me conheça mais</p>
+                    
+                </div>
+                <!-- Banner Text -->
+
+            </div>
+
+            <!-- down animation -->
+            <button class="verMais" onclick="window.location.href='#section2'">
+                <a href="#section2"><i class="fa-solid fa-angles-down fa-bounce"></i></a>
+            </button>
+            <!-- down animation -->
+
+        </div>
+        <!-- 1 Section Content -->
+
+        <!-- Bg Video -->
+        <video src="https://i.imgur.com/26Q1GF5.mp4" muted autoplay loop></video>
+        <!-- Bg Video -->
+
+    </div>
+   
+    <div id="section2" class="section2">
+
+        <!-- Video Bg -->
+        <video src="./videos/universemood section2.webm" muted autoplay loop>
+            <audio id="background-music" src="./videos/trapspace.m4a" loop></audio>
+        </video>
+        <!-- Video Bg -->
+    
+        <!-- Texto -->
+        <div class="text-overlay">
+            <p></p>
+        <!-- Texto -->
+    
+        <!-- Tools Video -->
+    
+        </div>
+    
+        <a onclick="window.open('https://homefly.vercel.app/'); return false;" class="redirectbio">Ver minha Bio completa <span>»</span></a>
+    
+        <div class="actionsbtn">
+            <button class="tospeechbtn" id="read-aloud-btn"><i class="fa-solid fa-ear-listen"></i> Voz</button>
+            <button class="stopspeechbtn" id="stop-reading-btn"><i class="fa-solid fa-volume-high"></i> Música</button>
+        </div>
+        <!-- Tools Video -->
+
+    </div>
+
+    <div id="section3" class="section3">
+
+        <!-- Frase Pensacional -->
+        <div class="left">
+            <video src="./videos/section 3.webm" muted autoplay loop></video>
+        </div>
+        
+        <div class="right">
+            <h5>~ Alianderson</h5>
+            <h1 style="margin-top: 20px;">
+                Seja diferente da maioria 
+                <br>
+                Fabrique ideias para o mundo
+            </h1>
+            
+            <br><br>
+            
+            <h1 style="margin-top: 20px;">
+                Seja diferente do mundo 
+                <br>
+                Fabrique ideias para a maioria
+            </h1>
+        </div>
+        <!-- Frase Pensacional -->
+
+    </div>
+    
+    <div id="section4" class="section4">
+        <div class="four">    
+            <!-- Skills Video -->
+
+            <div class="projects">
+                <div class="bg">
+                    <video src="./videos/backend.mov" autoplay muted loop class="id-1"></video>
+                    <video src="./videos/frontend.mp4" autoplay muted loop class="id-2"></video>
+                    <video src="./videos/learning.mp4" autoplay muted loop class="id-3"></video>
+                    <video src="./videos/brain.mp4" autoplay muted loop class="id-4"></video>
+                    <video src="./videos/design.mp4" autoplay muted loop class="id-5"></video>
+                    <video src="./videos/business.mp4" autoplay muted loop class="id-6"></video>
+                </div>
+
+                <div class="first-project container">
+                    <div class="first" data-id="1" onclick="window.location.href = 'https://worldbolsoamigo.vercel.app';">
+                        <h1>BACK END</h1>
+                        
+                        <div class="about">
+                            <h4>Express</h4>
+                            <h4>Node</h4>
+                            <h4>MySql</h4>
+                            <h4>Next</h4>
+                            <h4>Php</h4>
+                        </div>
+
+                    </div>
+                    
+                    <div class="first" data-id="2" onclick="window.location.href = 'https://worldbarbercut.vercel.app';">
+                        <h1>FRONT END</h1>
+
+                        <div class="about">
+                            <h4>Html5</h4>
+                            <h4>Css</h4>
+                            <h4>Javascript</h4>
+                            <h4>React</h4>
+                        </div>
+                       
+                    </div>
+                   
+                    <div class="first" data-id="3" onclick="window.location.href = '#';">
+                        <h1>APRENDENDO</h1>
+
+                        <div class="about">
+                            <h4>Scrum</h4>
+                            <h4>.NET</h4>
+                            <h4>C#</h4>
+                        </div>
+                    </div>
+                    
+                    <div class="first" data-id="4" onclick="window.location.href = '#';">
+                        <h1>IA</h1>
+
+                        <div class="about">
+                            <h4>IA</h4>
+                            <h4>Chatbots</h4>
+                            <h4>Automação</h4>
+                            <h4>Python</h4>
+                        </div>
+                    </div>
+                    
+                    <div class="first" data-id="5" onclick="window.location.href = '#';">
+                        <h1>DESIGN <span>+</span></h1>
+
+                        <div class="about">
+                            <h4>Photoshop</h4>
+                            <h4>After Effect</h4>
+                            <h4>Premiere</h4>
+                        </div>
+                    </div>
+                    
+                    <div class="first" data-id="6" onclick="window.location.href = '#';">
+                        <h1>BUSINESS <span>+</span></h1>
+
+                        <div class="about">
+                            <h4>Marketing Digital</h4>
+                            <h4>Marca Branding</h4>
+                            <h4>Social Media</h4>
+                            <h4>Tráfego Orgânico/Pago</h4>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Skills Video -->
+
+        </div>
+    </div>
+
+    <div class="section5">
+        <div class="five container">
+
+            <!-- Redirect Buttons -->
+            <div class="left">
+                <h5>Qualificações!</h5>
+                <div class="containerbtn">
+                    <div class="buttons">
+                        <a onclick="redirectTo('./certificate/certificate/certificate.html')" class="neon-button neon-button__1">CERTIFICADOS</a>
+                        
+                    </div>
+                </div>
+            </div>
+            <!-- Redirect Buttons -->
+            
+            <!-- Image Animation -->
+            <div class="right">
+                <video src="./videos/section 5.webm" muted loop autoplay></video>
+            </div>
+            <!-- Image Animation -->
+        </div>
+    </div>
+
+    <div class="section6">
+
+        <div class="six">
+            <div class="left">
+
+                <!-- Social -->
+             
+                <div class="move">
+                    <h1>
+                        Não perca minhas atualizações <span> me siga!</span>
+                    </h1>
+                    <i class="fa-solid fa-arrow-down"></i>
+                </div>
+                
+                <div class="move">
+                    <h1>
+                        Não perca minhas atualizações <span> me siga!</span>
+                    </h1>
+                    <i class="fa-solid fa-arrow-down"></i>
+                </div>
+                
+                <div class="move">
+                    <h1>
+                        Não perca minhas atualizações <span> me siga!</span>
+                    </h1>
+                    <i class="fa-solid fa-arrow-down"></i>
+                </div>
+             
+                <div class="move">
+                    <h1>
+                        Não perca minhas atualizações <span> me siga!</span>
+                    </h1>
+                    <i class="fa-solid fa-arrow-down"></i>
+                </div>
+                
+
+            </div>       
+
+            <div class="d-social social-container">
+                <a class="a-social" onclick="redirectTo('https://codepen.io/alianderson-world')" target="_blank"><i class="fab fa-codepen"></i></a>
+                <a class="a-social" onclick="redirectTo('https://twitter.com/aliandersonwrld')" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a class="a-social" onclick="redirectTo('https://www.linkedin.com/in/alianderson-da-luz-5571542b8/')" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a class="a-social" onclick="redirectTo('https://github.com/alianderson-world')" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+
+            <!-- Social -->
+           
+        </div>
+    </div>
+    
+    <!-- Scripts -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.3/gsap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.3/ScrollTrigger.min.js"></script>
+        <script src="main.js"></script>
+        <script src="social.js"></script>
+        <script src="button.js"></script>
+        <script src="socialend.js"></script>
+        <script src="menu.js"></script>
+        <script>
+            function redirectTo(url) {
+                window.open(url, '_blank');
+            }
+        </script>
+        <script>
+            function scrollToSection(sectionId) {
+    const section = document.getElementById(sectionId);
+    section.scrollIntoView({ behavior: 'smooth' });
+}
+        </script>
+    <!-- Scripts -->
+
+</body>
+</html>
